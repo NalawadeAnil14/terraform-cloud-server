@@ -3,4 +3,9 @@ variable "instance_type" {
   default = "t3.micro"
 }
 
+variable "az" {
+  type    = string
+  default = "us-east-1a"
+}
+
 
